@@ -7,8 +7,8 @@ rds = boto3.client('rds')
 
 
 # User defined variables
-username ='dctuser1'
-password = '2Lxu1hRT'
+username =''
+password = ''
 db_subnet_group = 'vpc-hol'  
 db_cluster_id = 'rds-hol-cluster'
 
