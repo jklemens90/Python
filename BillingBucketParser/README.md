@@ -1,5 +1,4 @@
-The purpose of this project was to trigger a lambda everytime new billing data (.csv file) is uploaded (put request) to an S3 billing bucket. The lambda function will parse the CSV file contents, and if any discrepancies are found,
-then it will move the file to an "error" bucket.
+The purpose of this project was to trigger a lambda everytime new billing data (.csv file) is uploaded (put request) to an S3 billing bucket. The lambda function will parse the CSV file contents, and if any discrepancies are found, then it will move the file to an "error" bucket.
 
 Prequisites:
 1. A lambda function written in Python to parse the data
