@@ -1,5 +1,10 @@
 The goal of this small project was to automate the process of checking for unassociated Elastic IPs and releasing them. This automation would help with unnecessary costs due to unused Elastic IPs. 
 
+Architecture:
+
+![2023-11-28 18_04_33-Python+Programming+for+AWS+Slides pdf - Personal - Microsoft​ Edge](https://github.com/jklemens90/Python/assets/95970840/3d37d9ef-3ed8-4f47-b8cd-91bf8ccefc8f)
+
+
 I created the lambda function, invoked it in my IDE, and was able to find all elastic IPs in my account.
 
 
