@@ -2,7 +2,8 @@ The goal of this small project was to automate the process of checking for unass
 
 Architecture:
 
-![2023-11-28 18_04_33-Python+Programming+for+AWS+Slides pdf - Personal - Microsoft​ Edge](https://github.com/jklemens90/Python/assets/95970840/3d37d9ef-3ed8-4f47-b8cd-91bf8ccefc8f)
+![2023-11-28 18_04_33-Python+Programming+for+AWS+Slides pdf - Personal - Microsoft​ Edge](https://github.com/jklemens90/Python/assets/95970840/5fdde945-2a65-47bd-9801-47731355a624)
+
 
 
 I created the lambda function, invoked it in my IDE, and was able to find all elastic IPs in my account.
