@@ -1,10 +1,15 @@
 Architecture-
 
-1.Glue crawlers parsed CSV data from the dct-billing-processed and dct-billing-data-lake S3 bucket. 
+1. Glue crawlers parsed CSV data from the dct-billing-processed and dct-billing-data-lake S3 bucket. 
+
 2. The glue crawlers then populated the data into the glue data catalog.
+   
 3. Within this Glue Data Catalog, they created three separate tables: billing, units sold, production costs. These tables were created automatically by the glue crawlers.
+   
 4. I then used the EMR Cluster to run the pyspark script. The cluster then processed the data within the glue data catalog.
-5. To process the data, our EMR cluster used proper permissions from IAM and Lake Formation to access the data within the glue data catalog. 
+   
+5. To process the data, our EMR cluster used proper permissions from IAM and Lake Formation to access the data within the glue data catalog.
+   
 6. Once permissions were given I was then able to generate the gross profit report using the pysparks script. That report was then stored in the dct-billing-data-lake S3 bucket. 
 
 ![2023-11-28 05_36_15-Python Programming for AWS- Learn Python with AWS and Boto3 - Google Docs](https://github.com/jklemens90/Python/assets/95970840/b92d2ad0-b134-4418-b0bf-1f111d64c90b)
