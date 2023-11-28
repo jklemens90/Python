@@ -1,5 +1,10 @@
 The purpose of this project was to configure a lambda function that is triggered whenever a new billing CSV file is uploaded to an S3 bucket. The function will read the file, convert any billing amount not in USD into USD and then insert the record into an Aurrora Serverless database.
 
+Architecture:
+
+![2023-11-28 18_03_13-Python+Programming+for+AWS+Slides pdf - Personal - Microsoft​ Edge](https://github.com/jklemens90/Python/assets/95970840/d4e5edfa-9da8-4beb-a95d-a687b17d8412)
+
+
 Beginning:
 After writing the first part of the Lambda function, our Lambda function was able to read the data from the csv file in our S3 bucket.
 
