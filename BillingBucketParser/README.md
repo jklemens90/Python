@@ -9,4 +9,5 @@ Prequisites:
 Architecture:
 
 
-![2023-11-28 18_02_16-Python+Programming+for+AWS+Slides pdf - Personal - Microsoft​ Edge](https://github.com/jklemens90/Python/assets/95970840/b1ecb414-0bc9-4d92-80fc-637771090a2c)
+
+![2023-11-28 18_02_16-Python+Programming+for+AWS+Slides pdf - Personal - Microsoft​ Edge](https://github.com/jklemens90/Python/assets/95970840/bc76226c-ed52-489b-ba8b-06ab1168de56)
