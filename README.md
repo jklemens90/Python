@@ -5,6 +5,7 @@ Developed Python fundamentals and then implemented them into hands-on projects t
 
 Services used include Lambda, Eventbridge, SQS, SNS, Aurora Serverless, S3, EMR, Glue, EC2. Learned how to utilize AI technologies for development with ChatGPT and Github Copilot. 
 
+
 Use cases included:
 
 Using the AWS Cloud9 IDE to write and manage code
