@@ -1,4 +1,4 @@
-
+Part 2 of the BillingBucketParser project. 
 
 The purpose of this project was to add an additional feature to the CSV billing validation project (BillingBucketParser). A feature was added to call a third party API in order to get real-time international tax data.  The idea was that if there was an error with the BillingBucketParser's function calling the "get_international_taxes" API, then this would publish to an SNS topic. An email would then be sent out to notify the issue.  A subscribed SQS queue would then trigger the "RetryBillingParser" function. This function would then re-attempt processing the csv files and data validation.
 
