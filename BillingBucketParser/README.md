@@ -5,3 +5,7 @@ Prequisites:
 2. S3 permissions for the lambda function
 3. Two S3 buckets. A "billing" bucket and a "billing error bucket"
 4. Setting up an S3 trigger for put requests.
+
+Architecture:
+
+![2023-11-28 18_01_43-Python+Programming+for+AWS+Slides pdf - Personal - Microsoft​ Edge](https://github.com/jklemens90/Python/assets/95970840/d0b1d29f-711b-4e94-b204-23d599e3abdd)
